@@ -1,0 +1,139 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.Khampha">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="409dp"
+        android:layout_height="41dp"
+        android:background="#7BAFD8"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Khám Phá" />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    >
+    <TableRow>
+
+        <TextView
+            android:layout_height="35dp"
+            android:layout_span="4"
+            android:fontFamily="serif"
+            android:text="Ăn uống và giải trí"
+            android:textColor="#0E0E0E"
+            android:textSize="20dp" />
+    </TableRow>
+
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btn_diadiem"
+            android:drawableTop="@drawable/location"
+            android:text="Địa điểm" />
+
+        <Button
+            android:id="@+id/btn_anuong"
+            android:drawableTop="@drawable/fork"
+            android:text="Ăn uống" />
+
+        <Button
+            android:id="@+id/btn_khachsan"
+            android:drawableTop="@drawable/hotel"
+            android:text="Khách sạn" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btn_vedem"
+            android:drawableTop="@drawable/moon"
+            android:text="Về đêm" />
+
+        <Button
+            android:id="@+id/btn_muasam"
+            android:drawableTop="@drawable/retail"
+            android:text="Mua sắm" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_span="4"
+            android:fontFamily="serif"
+            android:text="Tiện ích"
+            android:textColor="#0E0E0E"
+            android:textSize="20dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btn_phuongtien"
+            android:drawableTop="@drawable/airplane"
+            android:text="Phương tiện" />
+
+        <Button
+            android:id="@+id/btn_doxe"
+            android:drawableTop="@drawable/travell"
+            android:text="Bãi đỗ xe" />
+
+        <Button
+            android:id="@+id/btn_truonghoc"
+            android:drawableTop="@drawable/school"
+            android:text="Trường học" />
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btn_coquan"
+            android:drawableTop="@drawable/off"
+            android:text="Cơ quan" />
+
+        <Button
+            android:id="@+id/btn_benhvien"
+            android:drawableTop="@drawable/hospital"
+            android:text="Bệnh viện" />
+
+        <Button
+            android:id="@+id/btn_nganhang"
+            android:drawableTop="@drawable/bank"
+            android:text="Ngân hàng" />
+    </TableRow>
+
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btn_congty"
+            android:drawableTop="@drawable/company"
+            android:text="Công ty" />
+
+        <Button
+            android:id="@+id/btn_atm"
+            android:drawableTop="@drawable/atm"
+            android:text="Rút tiền" />
+
+    </TableRow>
+</TableLayout>
+</ScrollView>
+
+</LinearLayout>
